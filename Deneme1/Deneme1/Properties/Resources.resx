@@ -1,0 +1,1045 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="body_level2_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\body_level2_13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="png-clipart-arrow-computer-icons-font-awesome-up-arrow-angle-text" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\png-clipart-arrow-computer-icons-font-awesome-up-arrow-angle-text.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="free-click-icon-2384-thumb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\free-click-icon-2384-thumb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3883b80e-5a4f-42b3-8801-0317f805b06b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3883b80e-5a4f-42b3-8801-0317f805b06b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dis.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_level2_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\body_level2_9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sag_ok" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sag_ok.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="meyveler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\meyveler.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kırk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kırk.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_level2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\body_level2_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sag_okk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sag_okk.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghrthrt_40x402" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ghrthrt_40x402.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yüz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yüz.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="poland" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\poland.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cd032aec-bf59-451c-9827-af72b9e1654e_350x350" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cd032aec-bf59-451c-9827-af72b9e1654e_350x350.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="onuc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\onuc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kirmizi_level" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kirmizi_level.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgbin-lip-mouth-drawing-cartoon-kiss-Bh2uriey1SWtc5duHHABp33M3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imgbin-lip-mouth-drawing-cartoon-kiss-Bh2uriey1SWtc5duHHABp33M3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sekiz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sekiz.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foto7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foto7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sari_gunes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sari_gunes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cezayir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cezayir.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ddfdffd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ddfdffd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hayvanlar_273x194" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hayvanlar_273x194.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cilek - Kopya1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cilek - Kopya1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7d8eb66c-76bf-482d-8d77-81b3f7417e1c1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7d8eb66c-76bf-482d-8d77-81b3f7417e1c1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uzum - Kopya2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\uzum - Kopya2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kazandınız" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kazandınız.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flag-China" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flag-China.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="goz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\goz.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="levels-background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\levels-background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eegegegeg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eegegegeg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="india" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\india.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="germany2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\germany2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="japan_153x95" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\japan_153x95.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="308-3089103_100-number-png-stock-photo-number-100-transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\308-3089103_100-number-png-stock-photo-number-100-transparent.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hayvanlarbonus_background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hayvanlarbonus_background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kaybettiniz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kaybettiniz.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foto5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foto5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kelebek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kelebek.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kurbaga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kurbaga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4baa2c2a-6297-4ff5-b033-f1e503dc9770_350x350" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4baa2c2a-6297-4ff5-b033-f1e503dc9770_350x350.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_level2_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\body_level2_12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="png-clipart-human-ear-hearing-euclidean-sense-cartoon-ear-hearing-site-cartoon-character-people" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\png-clipart-human-ear-hearing-euclidean-sense-cartoon-ear-hearing-site-cartoon-character-people.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7d8eb66c-76bf-482d-8d77-81b3f7417e1c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7d8eb66c-76bf-482d-8d77-81b3f7417e1c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="patlican" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\patlican.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hirvatistan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hirvatistan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="elli" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\elli.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu-button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dirsek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dirsek.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bir.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="35008c70-0ac9-4a0d-b389-f1772ba58e27_350x350" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\35008c70-0ac9-4a0d-b389-f1772ba58e27_350x350.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kahverengi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kahverengi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="96ad2a0a-ea3e-4648-bbea-75b94b958809" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\96ad2a0a-ea3e-4648-bbea-75b94b958809.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghnhn_40x40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ghnhn_40x40.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foto 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foto 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="timsah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\timsah.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="onbes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\onbes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foto2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foto2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_level2_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\body_level2_4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abdbbf62-566d-4df0-8bc3-3307d46dc03e" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\abdbbf62-566d-4df0-8bc3-3307d46dc03e.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salatalik" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\salatalik.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arkaplannnn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arkaplannnn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="c94ba6fa-70ab-46f9-b6fc-d904fc0c4495" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c94ba6fa-70ab-46f9-b6fc-d904fc0c4495.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sebzelerbonus_arkaplan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sebzelerbonus_arkaplan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="limon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\limon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hair" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hair.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mor_sapka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mor_sapka.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kulak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kulak.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="c29af405-fb4b-4e27-90e7-0f988d9a27e71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c29af405-fb4b-4e27-90e7-0f988d9a27e71.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="armut - Kopya1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\armut - Kopya1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maymun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maymun.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deneme1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deneme1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1fd123d81dd7a65d71d5b67fc7fd8686_273x194" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1fd123d81dd7a65d71d5b67fc7fd8686_273x194.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zeytin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zeytin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foto10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foto10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="onalti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\onalti.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="45a95853c281d5fd287c1de3a0d55f77_125x55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\45a95853c281d5fd287c1de3a0d55f77_125x55.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="muz - Kopya1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\muz - Kopya1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\red.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="poland_153x95" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\poland_153x95.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zurafa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zurafa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abdbbf62-566d-4df0-8bc3-3307d46dc03e1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\abdbbf62-566d-4df0-8bc3-3307d46dc03e1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="part_outline_human_cartoon_free_body_parts_leg_biswajyotim_legs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\part_outline_human_cartoon_free_body_parts_leg_biswajyotim_legs.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hayvanlar2-arkaplan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hayvanlar2-arkaplan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parmak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\parmak.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9d094a5b-80ab-420f-a47e-f6269966f9aa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9d094a5b-80ab-420f-a47e-f6269966f9aa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="turkey_153x95" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\turkey_153x95.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="misir1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misir1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ulkelerbonus_arkaplan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ulkelerbonus_arkaplan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kavun - Kopya2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kavun - Kopya2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="siyah_bardak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\siyah_bardak.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dokuz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dokuz.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_level2_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\body_level2_10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="depositphotos_5152763-stock-illustration-red-cross-mark_125x55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\depositphotos_5152763-stock-illustration-red-cross-mark_125x55.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mavi_sandalye" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mavi_sandalye.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="macaristan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\macaristan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abstract-blue-background-hd-16_1300x810" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\abstract-blue-background-hd-16_1300x810.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foto4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foto4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="43bf74f1-1871-484e-a85c-a9ad9e9a2d2d1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\43bf74f1-1871-484e-a85c-a9ad9e9a2d2d1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sonDenemeeeeeeeeeee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sonDenemeeeeeeeeeee.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-1064287648-612x6121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-1064287648-612x6121.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1200px-Flag_of_Japan.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1200px-Flag_of_Japan.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alti.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foto81" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foto81.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14590043-0387-4744-aaae-21faedec90f3_350x350" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14590043-0387-4744-aaae-21faedec90f3_350x350.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="karpuz - Kopya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\karpuz - Kopya.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="altmıs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\altmıs.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="italya2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\italya2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="252-2523451_30-number-png-image-30-png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\252-2523451_30-number-png-image-30-png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bilek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bilek.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="45a95853c281d5fd287c1de3a0d55f77_167x68" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\45a95853c281d5fd287c1de3a0d55f77_167x68.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d9fdc6c2-946d-4c3f-a390-5e906051b9b4_350x350" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d9fdc6c2-946d-4c3f-a390-5e906051b9b4_350x350.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="qP0fv1mqZpQwoJDnLJSeaxis4WhOye64LrbNaPet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qP0fv1mqZpQwoJDnLJSeaxis4WhOye64LrbNaPet.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2c3b0bf7-808b-4477-b9d7-15d71742f18e" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2c3b0bf7-808b-4477-b9d7-15d71742f18e.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spain_153x95" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spain_153x95.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_level2_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\body_level2_8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tik1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tik.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36e0dd11-be0d-4558-ad9b-15732fbe0097" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\36e0dd11-be0d-4558-ad9b-15732fbe0097.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tirnak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tirnak.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="96ad2a0a-ea3e-4648-bbea-75b94b9588091" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\96ad2a0a-ea3e-4648-bbea-75b94b9588091.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ad27ac06-4eb3-46bf-8ccd-cfc4ee1f42ac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ad27ac06-4eb3-46bf-8ccd-cfc4ee1f42ac.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d57bfbf5-d5db-4309-8ba6-a140197002ed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d57bfbf5-d5db-4309-8ba6-a140197002ed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="can" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\can.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="946610d0e02a0f6193444de23aa0fa9d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\946610d0e02a0f6193444de23aa0fa9d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="153188a9-c014-4022-bf1a-2190b3713d60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\153188a9-c014-4022-bf1a-2190b3713d60.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iki.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flag_of_Portugal.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flag_of_Portugal.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="126a977e-ed35-4349-b2d6-632f1d9592a8_350x350" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\126a977e-ed35-4349-b2d6-632f1d9592a8_350x350.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1200px-Flag_of_Japan2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1200px-Flag_of_Japan2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bonus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bonus.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arkaplan-meyveler2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arkaplan-meyveler2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="italya21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\italya21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="onsekiz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\onsekiz.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\diz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yesil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yesil.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b674eaf1-ac00-4bb9-93ea-2f6ad13ccd1c_350x350" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b674eaf1-ac00-4bb9-93ea-2f6ad13ccd1c_350x350.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="renkler_273x194" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\renkler_273x194.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="neck-icon-cartoon-style-vector-11495715" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\neck-icon-cartoon-style-vector-11495715.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ededd10a-35ca-415f-875f-31c860a80fed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ededd10a-35ca-415f-875f-31c860a80fed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yilan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yilan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yedi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yedi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ondokuz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ondokuz.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adc1cae6-fcdb-4e7d-96fb-06ec21fbc103_350x350" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adc1cae6-fcdb-4e7d-96fb-06ec21fbc103_350x350.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="human-hand-cartoon-vector-24555421" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\human-hand-cartoon-vector-24555421.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="isvec" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\isvec.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portugal_153x95" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portugal_153x95.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="358400-middle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\358400-middle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cartoon-dog-isolated-on-white-background-vector-21035935" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cartoon-dog-isolated-on-white-background-vector-21035935.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foto3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foto3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ok-isareti1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ok-isareti1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sari.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kartlar-arkaplan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kartlar-arkaplan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sari_level" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sari_level.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="c29af405-fb4b-4e27-90e7-0f988d9a27e7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c29af405-fb4b-4e27-90e7-0f988d9a27e7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body1_level1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\body1_level1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_level2_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\body_level2_5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sayılar_273x194" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sayılar_273x194.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="koyun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\koyun.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flag_of_Portugal2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flag_of_Portugal2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sol_ok1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sol_ok1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\abd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag-turkey-flat-design-flag-1497367" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flag-turkey-flat-design-flag-1497367.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kirmizi_gul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kirmizi_gul.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="95ba4fdc-97db-4177-9929-12b27570a40d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\95ba4fdc-97db-4177-9929-12b27570a40d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghrthrt_40x40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ghrthrt_40x40.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_level2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\body_level2_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="armut - Kopya2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\armut - Kopya2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="turkiyebayragi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\turkiyebayragi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tik2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tik1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="saat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\saat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pembe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pembe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hollanda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hollanda.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kemik" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kemik.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_level2_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\body_level2_7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="360_F_77371454_u18ZNypO3RvJgHXQD9jfY0gheZTwmSIW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\360_F_77371454_u18ZNypO3RvJgHXQD9jfY0gheZTwmSIW.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dort.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4d67ff69-6f87-4b6c-8015-4dc6c65e7eb3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4d67ff69-6f87-4b6c-8015-4dc6c65e7eb3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mantar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mantar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sogan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sogan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kavun - Kopya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kavun - Kopya.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bayraklar_273x194" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bayraklar_273x194.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uzum - Kopya1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\uzum - Kopya1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="muz - Kopya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\muz - Kopya.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Adsız" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Adsız.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_level2_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\body_level2_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="isvicre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\isvicre.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foto9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foto9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kirk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kirk.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="domates" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\domates.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yunanistan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yunanistan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kavun - Kopya1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kavun - Kopya1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unnamed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unnamed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asagı_ok" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asagı_ok.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fransa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fransa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pembe_pamukseker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pembe_pamukseker.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-1064287648-612x612" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-1064287648-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deri" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deri.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foot-cartoon-icon-vector-15752252" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foot-cartoon-icon-vector-15752252.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yirmi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yirmi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="italy_153x95" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\italy_153x95.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="depositphotos_5152763-stock-illustration-red-cross-mark_167x68" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\depositphotos_5152763-stock-illustration-red-cross-mark_167x68.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sayilar_bonus_arkaplan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sayilar_bonus_arkaplan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kiraz - Kopya1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kiraz - Kopya1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="elma - Kopya1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\elma - Kopya1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kiraz - Kopya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kiraz - Kopya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="penguen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\penguen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="havuc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\havuc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portakal - Kopya1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portakal - Kopya1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="balik" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\balik.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oniki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oniki.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9d094a5b-80ab-420f-a47e-f6269966f9aa1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9d094a5b-80ab-420f-a47e-f6269966f9aa1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="penguen1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\penguen1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="onyedi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\onyedi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghnhn_40x401" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ghnhn_40x401.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portakal - Kopya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portakal - Kopya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="china_153x95" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\china_153x95.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ari.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="neck-icon-cartoon-style-vector-25457500" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\neck-icon-cartoon-style-vector-25457500.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d57bfbf5-d5db-4309-8ba6-a140197002ed1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d57bfbf5-d5db-4309-8ba6-a140197002ed1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="turuncu_araba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\turuncu_araba.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flag_of_Englan2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flag_of_Englan2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="a75d7e4cd4c75a60871f0e32b9c90b131" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a75d7e4cd4c75a60871f0e32b9c90b131.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sol_ok" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sol_ok.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghrthrt_40x401" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ghrthrt_40x401.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="64a0ff01-6f84-4787-931b-6be739b6880f_350x350" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\64a0ff01-6f84-4787-931b-6be739b6880f_350x350.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yuzzzzzz2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yuzzzzzz2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salyangoz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\salyangoz.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ordek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ordek.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yesil_level" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yesil_level.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\h.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yengec" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yengec.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bodybonus_background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bodybonus_background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sonDeneme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sonDeneme.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clock.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sakal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sakal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fil.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_level2_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\body_level2_6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fransa2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fransa2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="onbir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\onbir.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\on.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cartoon-dog-isolated-on-white-background-vector-210359351" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cartoon-dog-isolated-on-white-background-vector-210359351.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="misir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="beyaz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beyaz.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yesil_yaprak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yesil_yaprak.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mavi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mavi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="a75d7e4cd4c75a60871f0e32b9c90b13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a75d7e4cd4c75a60871f0e32b9c90b13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arkapaln" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arkapaln.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baslangic-arkaplan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\baslangic-arkaplan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="turuncu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\turuncu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bir1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bir1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="g" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\g.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foto8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foto8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="marul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\marul.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\uc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dil.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cilek - Kopya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cilek - Kopya.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="patates" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\patates.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="star-bonus-icon-on-background-glow-vector-14707059_273x194" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\star-bonus-icon-on-background-glow-vector-14707059_273x194.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flag_of_England.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flag_of_England.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="germany_153x951" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\germany_153x951.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="karpuz (2) - Kopya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\karpuz (2) - Kopya.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="face" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\face.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="omuz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\omuz.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ı" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ı.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="358400-middle1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\358400-middle1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seksen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seksen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="beyaz_bulut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beyaz_bulut.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="40ae9a24-7a3b-46fb-a565-5b52d8730ed7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\40ae9a24-7a3b-46fb-a565-5b52d8730ed7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doksan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doksan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kahverengi_yaprak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kahverengi_yaprak.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arka-plan-resimleri-105_1155x687" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arka-plan-resimleri-105_1155x687.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="france_153x95" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\france_153x95.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foto6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foto6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ispanya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ispanya.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="43bf74f1-1871-484e-a85c-a9ad9e9a2d2d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\43bf74f1-1871-484e-a85c-a9ad9e9a2d2d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_level2_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\body_level2_11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="armut - Kopya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\armut - Kopya.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2408332b-4733-4a89-a975-148a4717a6f9_350x350" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2408332b-4733-4a89-a975-148a4717a6f9_350x350.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="otuz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\otuz.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ondort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ondort.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tik" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tik.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="743004" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\743004.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="england_153x95" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\england_153x95.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="germany" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\germany.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flag-China2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flag-China2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yetmis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yetmis.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vegetables" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vegetables.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="geyik" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\geyik.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="poland2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\poland2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="112-1126973_blank-face-clipart-cartoon-grandpa-face" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\112-1126973_blank-face-clipart-cartoon-grandpa-face.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ispanya2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ispanya2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cartoon-nose-symbol-icon-design-beautiful-vector-23999130" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cartoon-nose-symbol-icon-design-beautiful-vector-23999130.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="elma - Kopya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\elma - Kopya.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="germany_153x95" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\germany_153x95.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baslangic yazi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\baslangic yazi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

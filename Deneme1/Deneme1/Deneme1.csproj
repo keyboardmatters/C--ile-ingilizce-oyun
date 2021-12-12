@@ -1,0 +1,1312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1C0E9D9E-E4F6-4E0C-BB06-F68C48D6DA41}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Deneme1</RootNamespace>
+    <AssemblyName>Deneme1</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Control.Draggable, Version=1.0.5049.269, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Control.Draggable.1.0.5049.269\lib\net35-Client\Control.Draggable.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seç.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hayvanlar_273x194.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renkler_273x194.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sayılar_273x194.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bayraklar_273x194.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1fd123d81dd7a65d71d5b67fc7fd8686_273x194.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxresdefault.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxresdefault_273x194.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meyveler.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\star-bonus-icon-on-background-glow-vector-14707059_273x194.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abstract-blue-background-hd-16_1300x810.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seçççç.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\45a95853c281d5fd287c1de3a0d55f77_167x68.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_5152763-stock-illustration-red-cross-mark_167x68.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\45a95853c281d5fd287c1de3a0d55f77_125x55.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_5152763-stock-illustration-red-cross-mark_125x55.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk1_423x441.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk3_423x441.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk4_423x441.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk5_423x441.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk6_423x441.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk7_423x441.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk9_423x441.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk10_423x441.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk2_423x441.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk8_423x441.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk8_317x358.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk2_317x358.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk10_317x358.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk9_317x358.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk7_317x358.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk6_317x358.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk5_317x358.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk4_317x358.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk3_317x358.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk1_317x358.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beyaz_bulut.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kahverengi_yaprak.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kirmizi_gul.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mavi_sandalye.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mor_sapka.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pembe_pamukseker.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sari_gunes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\siyah_bardak.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\turuncu_araba.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yesil_yaprak.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beyaz_bulut1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mavi_sandalye1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\siyah_bardak1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yesil_yaprak1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\turuncu_araba1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sari_gunes1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mor_sapka1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kahverengi_yaprak1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pembe_pamukseker1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kirmizi_gul1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sonmor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sonbeyaz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sonsari.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sonkahverengi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sonpembe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sonturuncu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sonkirmizi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sonmavi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sonyesil.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sonsiyah.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sol_ok.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sol_ok1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sag_ok.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghnhn_40x40.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghrthrt_40x40.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghrthrt_40x401.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghrthrt_40x402.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghnhn_40x401.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto81.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alti.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bir.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dokuz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dort.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iki.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\on.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sekiz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yedi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yetmis.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\altmıs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doksan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elli.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kırk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\otuz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seksen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yirmi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yüz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bir1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arka-plan-resimleri-105_1155x687.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\g.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ı.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\k.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\l.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sag_okk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asagı_ok.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wefwefwe_350x350.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rfgergerfgerf_350x350.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tghedtghet_350x350.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yfhjfyhj_350x350.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14590043-0387-4744-aaae-21faedec90f3_350x350.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2408332b-4733-4a89-a975-148a4717a6f9_350x350.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adc1cae6-fcdb-4e7d-96fb-06ec21fbc103_350x350.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\35008c70-0ac9-4a0d-b389-f1772ba58e27_350x350.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4baa2c2a-6297-4ff5-b033-f1e503dc9770_350x350.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cd032aec-bf59-451c-9827-af72b9e1654e_350x350.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d9fdc6c2-946d-4c3f-a390-5e906051b9b4_350x350.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\126a977e-ed35-4349-b2d6-632f1d9592a8_350x350.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b674eaf1-ac00-4bb9-93ea-2f6ad13ccd1c_350x350.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\64a0ff01-6f84-4787-931b-6be739b6880f_350x350.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bayrak_yeriii.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bayrak_yr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\turkey_153x95.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spain_153x95.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poland_153x95.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\france_153x95.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\germany_153x95.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\china_153x95.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\japan_153x95.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\germany_153x951.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\france_153x951.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\england_153x95.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\italy_153x95.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portugal_153x95.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flags_arkaplan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\K0788-234xx_316x177.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\K0788-234xx_250x172.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\K0788-234xx_225x172.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arkaplannnn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sonDeneme.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sonDenemeeeeeeeeeee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beyaz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sari.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kahverengi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pembe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\turuncu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mavi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yesil.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qP0fv1mqZpQwoJDnLJSeaxis4WhOye64LrbNaPet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flag-China2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fransa2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\italya2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ispanya2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\germany2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flag_of_Englan2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1200px-Flag_of_Japan2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poland2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flag_of_Portugal2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arkapaln.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\italya21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ispanya.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\germany.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fransa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flag-China.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flag_of_Portugal.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flag_of_England.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1200px-Flag_of_Japan.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poland.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flag-turkey-flat-design-flag-1497367.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\743004.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\body1_level1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yuzzzzzz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yuzzzzzson4356356.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yuzzzzzz1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yuzzzzzz2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\body_level2_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\body_level2_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\body_level2_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\body_level2_4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\body_level2_5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\body_level2_6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\body_level2_7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\body_level2_8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\body_level2_9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\body_level2_10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\body_level2_11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\body_level2_12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\body_level2_13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok-isareti1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\goz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\face.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hair.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kulak.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\neck-icon-cartoon-style-vector-25457500.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_77371454_u18ZNypO3RvJgHXQD9jfY0gheZTwmSIW.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adsız.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3883b80e-5a4f-42b3-8801-0317f805b06b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1064287648-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ededd10a-35ca-415f-875f-31c860a80fed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\946610d0e02a0f6193444de23aa0fa9d.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ddfdffd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\112-1126973_blank-face-clipart-cartoon-grandpa-face.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c94ba6fa-70ab-46f9-b6fc-d904fc0c4495.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-clipart-human-ear-hearing-euclidean-sense-cartoon-ear-hearing-site-cartoon-character-people.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cartoon-nose-symbol-icon-design-beautiful-vector-23999130.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgbin-lip-mouth-drawing-cartoon-kiss-Bh2uriey1SWtc5duHHABp33M3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\neck-icon-cartoon-style-vector-11495715.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\95ba4fdc-97db-4177-9929-12b27570a40d.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\human-hand-cartoon-vector-24555421.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1064287648-612x6121.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\part_outline_human_cartoon_free_body_parts_leg_biswajyotim_legs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foot-cartoon-icon-vector-15752252.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\armut - Kopya.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kavun - Kopya.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uzum - Kopya.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eegegegeg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-click-icon-2384-thumb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elma - Kopya.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\muz - Kopya.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cilek - Kopya.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portakal - Kopya.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\karpuz - Kopya.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kiraz - Kopya.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kavun - Kopya1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\armut - Kopya1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uzum - Kopya1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kiraz - Kopya1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\armut - Kopya2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cilek - Kopya1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elma - Kopya1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\karpuz %282%29 - Kopya.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kavun - Kopya2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\muz - Kopya1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portakal - Kopya1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uzum - Kopya2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deneme1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7d8eb66c-76bf-482d-8d77-81b3f7417e1c.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9d094a5b-80ab-420f-a47e-f6269966f9aa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\43bf74f1-1871-484e-a85c-a9ad9e9a2d2d.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\96ad2a0a-ea3e-4648-bbea-75b94b958809.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\358400-middle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a75d7e4cd4c75a60871f0e32b9c90b13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abdbbf62-566d-4df0-8bc3-3307d46dc03e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c29af405-fb4b-4e27-90e7-0f988d9a27e7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cartoon-dog-isolated-on-white-background-vector-21035935.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d57bfbf5-d5db-4309-8ba6-a140197002ed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-clipart-arrow-computer-icons-font-awesome-up-arrow-angle-text.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7d8eb66c-76bf-482d-8d77-81b3f7417e1c1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9d094a5b-80ab-420f-a47e-f6269966f9aa1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\43bf74f1-1871-484e-a85c-a9ad9e9a2d2d1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\96ad2a0a-ea3e-4648-bbea-75b94b9588091.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\358400-middle1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a75d7e4cd4c75a60871f0e32b9c90b131.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abdbbf62-566d-4df0-8bc3-3307d46dc03e1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c29af405-fb4b-4e27-90e7-0f988d9a27e71.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cartoon-dog-isolated-on-white-background-vector-210359351.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d57bfbf5-d5db-4309-8ba6-a140197002ed1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tik.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\levels-background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hayvanlar2-arkaplan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kalp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kaybettiniz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kazandınız.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kartlar-arkaplan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arkaplan-meyveler2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\308-3089103_100-number-png-stock-photo-number-100-transparent.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ad27ac06-4eb3-46bf-8ccd-cfc4ee1f42ac.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2c3b0bf7-808b-4477-b9d7-15d71742f18e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\36e0dd11-be0d-4558-ad9b-15732fbe0097.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\40ae9a24-7a3b-46fb-a565-5b52d8730ed7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4d67ff69-6f87-4b6c-8015-4dc6c65e7eb3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kirk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\252-2523451_30-number-png-image-30-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\153188a9-c014-4022-bf1a-2190b3713d60.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baslangic-arkaplan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\turkiyebayragi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bonus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ari.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\balik.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fil.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\geyik.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kelebek.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\koyun.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kurbaga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maymun.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ordek.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\penguen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salyangoz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timsah.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yengec.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yilan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zurafa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\penguen1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onalti.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onbes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onbir.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ondokuz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ondort.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oniki.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onsekiz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onuc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onyedi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cezayir.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hirvatistan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hollanda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\india.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\isvec.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\isvicre.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\macaristan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\misir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yunanistan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\india1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vegetables.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\domates.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\havuc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\limon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mantar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\misir1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patates.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patlican.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salatalik.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sogan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zeytin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sayilar_bonus_arkaplan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bilek.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deri.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dil.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dirsek.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dis.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kemik.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\omuz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parmak.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sakal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tirnak.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bodybonus_background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hayvanlarbonus_background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk1_317x3581.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk1_423x4411.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk10_317x3581.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk10_423x4411.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk2_317x3581.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk2_423x4411.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk3_317x3581.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk3_423x4411.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk4_317x3581.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk4_423x4411.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk5_317x3581.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk5_423x4411.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk6_317x3581.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk6_423x4411.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk7_317x3581.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk7_423x4411.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk8_317x3581.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk8_423x4411.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk9_317x3581.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renk9_423x4411.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\can.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tik.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tik1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carpi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sebzelerbonus_arkaplan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ulkelerbonus_arkaplan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kirmizi_level.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baslangic yazi.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

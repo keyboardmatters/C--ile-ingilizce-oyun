@@ -1,0 +1,56 @@
+c:\users\resuladanur\documents\visual studio 2015\Projects\Deneme1\Deneme1\bin\Debug\Deneme1.exe.config
+c:\users\resuladanur\documents\visual studio 2015\Projects\Deneme1\Deneme1\bin\Debug\Deneme1.exe
+c:\users\resuladanur\documents\visual studio 2015\Projects\Deneme1\Deneme1\bin\Debug\Deneme1.pdb
+c:\users\resuladanur\documents\visual studio 2015\Projects\Deneme1\Deneme1\obj\Debug\Deneme1.csprojResolveAssemblyReference.cache
+c:\users\resuladanur\documents\visual studio 2015\Projects\Deneme1\Deneme1\obj\Debug\Deneme1.Properties.Resources.resources
+c:\users\resuladanur\documents\visual studio 2015\Projects\Deneme1\Deneme1\obj\Debug\Deneme1.csproj.GenerateResource.Cache
+c:\users\resuladanur\documents\visual studio 2015\Projects\Deneme1\Deneme1\obj\Debug\Deneme1.exe
+c:\users\resuladanur\documents\visual studio 2015\Projects\Deneme1\Deneme1\obj\Debug\Deneme1.pdb
+c:\users\resuladanur\documents\visual studio 2015\Projects\Deneme1\Deneme1\obj\Debug\Deneme1.baslangic_ekrani.resources
+C:\Users\Bünyamin ADANUR\source\repos\Deneme1\Deneme1\bin\Debug\Deneme1.exe.config
+C:\Users\Bünyamin ADANUR\source\repos\Deneme1\Deneme1\bin\Debug\Deneme1.exe
+C:\Users\Bünyamin ADANUR\source\repos\Deneme1\Deneme1\bin\Debug\Deneme1.pdb
+C:\Users\Bünyamin ADANUR\source\repos\Deneme1\Deneme1\obj\Debug\Deneme1.csprojAssemblyReference.cache
+C:\Users\Bünyamin ADANUR\source\repos\Deneme1\Deneme1\obj\Debug\Deneme1.baslangic_ekrani.resources
+C:\Users\Bünyamin ADANUR\source\repos\Deneme1\Deneme1\obj\Debug\Deneme1.Properties.Resources.resources
+C:\Users\Bünyamin ADANUR\source\repos\Deneme1\Deneme1\obj\Debug\Deneme1.csproj.GenerateResource.cache
+C:\Users\Bünyamin ADANUR\source\repos\Deneme1\Deneme1\obj\Debug\Deneme1.csproj.CoreCompileInputs.cache
+C:\Users\Bünyamin ADANUR\source\repos\Deneme1\Deneme1\obj\Debug\Deneme1.exe
+C:\Users\Bünyamin ADANUR\source\repos\Deneme1\Deneme1\obj\Debug\Deneme1.pdb
+C:\Users\Bünyamin ADANUR\source\repos\Deneme1\Deneme1\bin\Debug\Control.Draggable.dll
+C:\Users\Bünyamin ADANUR\source\repos\Deneme1\Deneme1\obj\Debug\Deneme1.csproj.CopyComplete
+C:\Users\resuladanur\documents\visual studio 2015\Projects\Deneme1\Deneme1\bin\Debug\Control.Draggable.dll
+C:\Users\Hüseyin ADANUR\source\repos\Deneme1\Deneme1\bin\Debug\Deneme1.exe.config
+C:\Users\Hüseyin ADANUR\source\repos\Deneme1\Deneme1\bin\Debug\Deneme1.exe
+C:\Users\Hüseyin ADANUR\source\repos\Deneme1\Deneme1\bin\Debug\Deneme1.pdb
+C:\Users\Hüseyin ADANUR\source\repos\Deneme1\Deneme1\bin\Debug\Control.Draggable.dll
+C:\Users\Hüseyin ADANUR\source\repos\Deneme1\Deneme1\obj\Debug\Deneme1.csprojAssemblyReference.cache
+C:\Users\Hüseyin ADANUR\source\repos\Deneme1\Deneme1\obj\Debug\Deneme1.baslangic_ekrani.resources
+C:\Users\Hüseyin ADANUR\source\repos\Deneme1\Deneme1\obj\Debug\Deneme1.Properties.Resources.resources
+C:\Users\Hüseyin ADANUR\source\repos\Deneme1\Deneme1\obj\Debug\Deneme1.csproj.GenerateResource.cache
+C:\Users\Hüseyin ADANUR\source\repos\Deneme1\Deneme1\obj\Debug\Deneme1.csproj.CoreCompileInputs.cache
+C:\Users\Hüseyin ADANUR\source\repos\Deneme1\Deneme1\obj\Debug\Deneme1.csproj.CopyComplete
+C:\Users\Hüseyin ADANUR\source\repos\Deneme1\Deneme1\obj\Debug\Deneme1.exe
+C:\Users\Hüseyin ADANUR\source\repos\Deneme1\Deneme1\obj\Debug\Deneme1.pdb
+C:\Users\Hüseyin ADANUR\source\repos\Deneme1\Deneme1\bin\Debug\Interop.WMPLib.dll
+C:\Users\Hüseyin ADANUR\source\repos\Deneme1\Deneme1\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Hüseyin ADANUR\source\repos\Deneme1\Deneme1\obj\Debug\Interop.WMPLib.dll
+C:\Users\Hüseyin ADANUR\source\repos\Deneme1\Deneme1\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Hüseyin ADANUR\source\repos\Deneme1\Deneme1\obj\Debug\Deneme1.csproj.ResolveComReference.cache
+C:\Görsel Programlama Final Projesi\Proje\Deneme1\Deneme1\bin\Debug\Deneme1.exe.config
+C:\Görsel Programlama Final Projesi\Proje\Deneme1\Deneme1\bin\Debug\Deneme1.exe
+C:\Görsel Programlama Final Projesi\Proje\Deneme1\Deneme1\bin\Debug\Deneme1.pdb
+C:\Görsel Programlama Final Projesi\Proje\Deneme1\Deneme1\bin\Debug\Control.Draggable.dll
+C:\Görsel Programlama Final Projesi\Proje\Deneme1\Deneme1\bin\Debug\Interop.WMPLib.dll
+C:\Görsel Programlama Final Projesi\Proje\Deneme1\Deneme1\bin\Debug\AxInterop.WMPLib.dll
+C:\Görsel Programlama Final Projesi\Proje\Deneme1\Deneme1\obj\Debug\Deneme1.csprojAssemblyReference.cache
+C:\Görsel Programlama Final Projesi\Proje\Deneme1\Deneme1\obj\Debug\Interop.WMPLib.dll
+C:\Görsel Programlama Final Projesi\Proje\Deneme1\Deneme1\obj\Debug\AxInterop.WMPLib.dll
+C:\Görsel Programlama Final Projesi\Proje\Deneme1\Deneme1\obj\Debug\Deneme1.csproj.ResolveComReference.cache
+C:\Görsel Programlama Final Projesi\Proje\Deneme1\Deneme1\obj\Debug\Deneme1.baslangic_ekrani.resources
+C:\Görsel Programlama Final Projesi\Proje\Deneme1\Deneme1\obj\Debug\Deneme1.Properties.Resources.resources
+C:\Görsel Programlama Final Projesi\Proje\Deneme1\Deneme1\obj\Debug\Deneme1.csproj.GenerateResource.cache
+C:\Görsel Programlama Final Projesi\Proje\Deneme1\Deneme1\obj\Debug\Deneme1.csproj.CoreCompileInputs.cache
+C:\Görsel Programlama Final Projesi\Proje\Deneme1\Deneme1\obj\Debug\Deneme1.csproj.CopyComplete
+C:\Görsel Programlama Final Projesi\Proje\Deneme1\Deneme1\obj\Debug\Deneme1.exe
+C:\Görsel Programlama Final Projesi\Proje\Deneme1\Deneme1\obj\Debug\Deneme1.pdb
